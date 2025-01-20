@@ -1,0 +1,1 @@
+cmd_/home/ldd_rpi/ldd/example/example.ko := ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/ldd_rpi/ldd/example/example.ko /home/ldd_rpi/ldd/example/example.o /home/ldd_rpi/ldd/example/example.mod.o;  true
