@@ -1,0 +1,1 @@
+cmd_/home/ldd_rpi/ldd/youtube_examples/video2/Module.symvers :=  sed 's/ko$$/o/'  /home/ldd_rpi/ldd/youtube_examples/video2/modules.order | scripts/mod/modpost -m -a    -o /home/ldd_rpi/ldd/youtube_examples/video2/Module.symvers -e -i Module.symvers -T - 
