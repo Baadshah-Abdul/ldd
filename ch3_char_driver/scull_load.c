@@ -2,12 +2,17 @@
 #include <linux/types.h>
 #include <linux/kdev.h>
 #include <linux/fs.h>
+#include <linux/fcntl.h>
+#include <linux/cdev.h>
 #include <linux/
 
 MAJOR(dev_t dev);
 MINOR(dev_t dev);
 
 MKDEV(int major, int minor);
+
+unsigned int iminor(struct inode *inode);
+unsigned int imajor(struct inode *inode);
 
 #!/bin/sh
 module="scull"
