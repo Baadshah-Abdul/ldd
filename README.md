@@ -1,3 +1,3 @@
 # Linux Device Drivers
 
-learning and uploading linux kernel modules to git 
+learning and uploading linux device drivers to git 
