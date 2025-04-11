@@ -1,1 +1,0 @@
-cmd_/home/ldd_rpi/ldd/youtube_examples/video1/hello.ko := ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/ldd_rpi/ldd/youtube_examples/video1/hello.ko /home/ldd_rpi/ldd/youtube_examples/video1/hello.o /home/ldd_rpi/ldd/youtube_examples/video1/hello.mod.o;  true
