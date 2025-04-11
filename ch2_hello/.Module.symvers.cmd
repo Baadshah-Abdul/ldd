@@ -1,0 +1,1 @@
+cmd_/home/ldd_rpi/ldd/hello/Module.symvers :=  sed 's/ko$$/o/'  /home/ldd_rpi/ldd/hello/modules.order | scripts/mod/modpost -m -a    -o /home/ldd_rpi/ldd/hello/Module.symvers -e -i Module.symvers -T - 
