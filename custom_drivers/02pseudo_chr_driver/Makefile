@@ -1,4 +1,4 @@
-obj-m += pcd.o
+obj-m += pseudo_chr_drv.o
 KERN_DIR=$(HOME)/linux-rpi
 ARCH = arm64
 CROSS_COMPILE = aarch64-linux-gnu-
